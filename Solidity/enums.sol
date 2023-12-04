@@ -18,5 +18,10 @@ contract enums{
     function setstatus( Status _status) public {
         status = _status;
     }
-    functin
+    function rej() public{
+        status = Status.Rejected;
+    }
+    function reset() public{
+        delete status;
+    }
 }
