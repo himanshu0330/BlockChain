@@ -40,3 +40,8 @@ By Default State Var. are internal and Functions are public.
 1. The concept where "REUSABILTY" of code is done due to which gas can be saved and code readability increases.
 2. "is" -> (replacement of extends of Java) keyword is used to inherit a parent contract in child contract.
 3. Two main keywords are:- "Virtual" it gives the permission to child contract to overwrite the parent contract, written in parent contract, Another one is:- "Override" it gives the permission to child to make changes in parent data, written in child.
+# Events
+1. If i have to put something on BlockChain and i know it cant be used further for modificationcor accessing purpose so we can achieve this with low gas usage via Events.(Outputs to the user Screen on clicking a button).
+## Note
+Remember Data Storage on Blockchain bsically means Data is Stroed on Trasaction Logs.
+2. Indexing Concept is also explained in file. Note that it can be used with only 3 parameters, it is used in making of Dapps, and Web3 Apps.
