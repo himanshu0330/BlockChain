@@ -24,3 +24,5 @@
 # Struct DataType
  Structure -> Reference -> Address
  basically a Array type structure, it is stored in Storage area (Not memory)
+# Mapping
+Suppose i have to  account information by passing a account address i.e. address -> struct{}
