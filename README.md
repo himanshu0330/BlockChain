@@ -29,15 +29,8 @@ I will be utilizing various resources to aid in my learning journey. Some of the
 - Community forums and developer communities
 
 ## Progress
-### Week 1: Introduction to Solidity
-- [ ] Completed basic Solidity syntax tutorials.
-- [ ] Created my first simple smart contract.
 
-### Week 2: Smart Contract Development
-- [ ] Currently exploring advanced Solidity concepts.
-- [ ] Experimenting with implementing logic in smart contracts.
-
-### Week 3: TBD
+### Week 1: TBD
 - [ ] Goals for the upcoming week.
 
 ## Notes and Observations
@@ -49,6 +42,4 @@ I welcome contributions, feedback, and suggestions from the community. Feel free
 ## Acknowledgements
 I'm grateful to the open-source community, developers, and resources that have helped me on this learning journey.
 
----
-
-Feel free to modify and expand upon this template to suit your specific learning objectives, update the progress section regularly as you move forward, and remember to include any additional information that you find relevant to your Solidity learning journey.
+# Copyright @ Himanshu Agrawal
