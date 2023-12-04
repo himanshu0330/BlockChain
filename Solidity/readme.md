@@ -27,8 +27,8 @@
 # Mapping
 Suppose i have to  account information by passing a account address i.e. address -> struct{}
 # Visibilty
-Usually defined for State variables and Functions (Who can access these)
-Types -> Public, Private, External, Internal (decides who are there Potential callers, these are basically of 4 types -> Contract itself, Child calling its Parent, Contract A calling Contract B, Outside World for Ex. RemixIDE)<br>
+1. Usually defined for State variables and Functions (Who can access these)
+2. Types -> Public, Private, External, Internal (decides who are there Potential callers, these are basically of 4 types -> Contract itself, Child calling its Parent, Contract A calling Contract B, Outside World for Ex. RemixIDE)<br>
 //Gas Increases and Security Decreases in up to down fashion:-
 1. Private -> within the contract allowed.
 2. Internal -> within and child allowed.
@@ -36,3 +36,7 @@ Types -> Public, Private, External, Internal (decides who are there Potential ca
 4. Public -> All potential callers are allowed.
 ## Note
 By Default State Var. are internal and Functions are public.
+# Inheritance
+1. The concept where "REUSABILTY" of code is done due to which gas can be saved and code readability increases.
+2. "is" -> (replacement of extends of Java) keyword is used to inherit a parent contract in child contract.
+3. Two main keywords are:- "Virtual" it gives the permission to child contract to overwrite the parent contract, written in parent contract, Another one is:- "Override" it gives the permission to child to make changes in parent data, written in child.
