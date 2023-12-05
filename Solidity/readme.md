@@ -33,8 +33,9 @@ also help as Switch case with require keyword
 
 # Struct DataType
 
-Structure -> Reference -> Address
-basically a Array type structure, it is stored in Storage area (Not memory)
+1. Structure -> Reference -> Address
+2. Basically a Array type structure, it is stored in Storage area (Not memory)
+3. Basic Operations to Discover -: accessing, insertion, deletion
 
 # Mapping
 
@@ -66,4 +67,4 @@ By Default State Var. are internal and Functions are public.
 
 ## Note
 
-Remember Data Storage on Blockchain bsically means Data is Stroed on Trasaction Logs. 2. Indexing Concept is also explained in file. Note that it can be used with only 3 parameters, it is used in making of Dapps, and Web3 Apps.
+Remember Data Storage on Blockchain basically means Data is Stroed on Trasaction Logs. 2. Indexing Concept is also explained in file. Note that it can be used with only 3 parameters, it is used in making of Dapps, and Web3 Apps.
