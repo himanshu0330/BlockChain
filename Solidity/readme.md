@@ -70,6 +70,17 @@ By Default State Var. are internal and Functions are public.
 Remember Data Storage on Blockchain basically means Data is Stroed on Trasaction Logs. 2. Indexing Concept is also explained in file. Note that it can be used with only 3 parameters, it is used in making of Dapps, and Web3 Apps.
 
 # Multiple Inheritance
+
 1. This concept comes into play when a Contract demand to use functions and variables of more than one contract at same time.
-## Some Rules must follow:- 
+
+## Some Rules must follow:-
+
 Base Like come First<br> Right to Left<br> Depth first manner
+
+# OverRiding Function In Multiple Inheritance
+
+We have to externally mention which function we have to override by specifying the function names in child contract.
+
+# Passing Parameter
+
+Passing data from one Contract to other, various Ways Studied, Order of Execution must be Studied Well.
