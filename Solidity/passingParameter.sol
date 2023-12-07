@@ -22,12 +22,12 @@ contract B {
 }
 
 // Passing data in constructor
-// 1st Way
+// 1st Way -> Static method
 contract C is A("Ansh", 19), B("Mathura", 100000) {
 
 }
 
-// 2nd Way
+// 2nd Way -> Static method
 contract D is A, B {
     constructor() A("Ansh", 19) B("Mathura", 100000) {}
 }
@@ -42,7 +42,7 @@ contract E is A, B {
     ) A(_name, _age + 2) B(_add, _salary) {}
 }
 
-// 4th Way -> Dynamic Value transfer also static value transfer
+// 4th Way -> one Static Value transfer and second Dynamic value transfer
 contract F is A("Himanshu", 19), B {
     constructor(
         string memory _name,
