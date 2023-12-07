@@ -7,12 +7,12 @@ contract Require{
 
     function checkRequire(uint _x) public{
         age = age+5;
+        // Syntax -> <require(condition, false error)>
         require(_x>2, "Error! value of x is less than 2");
     }
     //Validation check
     function onlyOwner() public {
         require(owner==msg.sender, "You are not the owner");
         age = age-2;
-        
     }
 }
