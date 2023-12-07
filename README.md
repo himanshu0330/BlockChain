@@ -1,6 +1,6 @@
 # Hey There! 👋
 
-# Solidity Programming Learning Journey
+# Welcome to My Solidity Programming Learning Journey
 
 This repository documents my learning journey in Solidity programming as I delve into the world of blockchain development. Through this repository, I aim to track my progress, compile resources, and showcase my growth in understanding Solidity and its applications in blockchain technology.
 
