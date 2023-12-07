@@ -93,12 +93,15 @@ There are two methods of calling functions of parent contract
 2. Through Super keyword and follwing the rules of Multiple Inheritance.
 
 # Require Keyword
+
 1. Basically used for error handling in functions
 2. Work -> Input Validation, Access control.
 3. Advantages include -> Gas Refund(Suppose a function used 200 gas out of 1k so it refund 800), another advantage is on State variables(suppose a state variable value is changed inside a function and require condition become false so the state is again reverted to original state)
 4. Similar types -> Revert, Assert
 
 # Revert $ Assert
+
 1. Gas cost less
 2. Customized error
 3. User Account address
+4. Checking OwnerShip of User
