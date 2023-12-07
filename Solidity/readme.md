@@ -84,3 +84,10 @@ We have to externally mention which function we have to override by specifying t
 # Passing Parameter
 
 Passing data from one Contract to other, various Ways Studied, Order of Execution must be Studied Well.
+
+# Parent Function Calling
+
+There are two methods of calling functions of parent contract
+
+1. Direct calling though function Name
+2. Through Super keyword and follwing the rules of Multiple Inheritance.
