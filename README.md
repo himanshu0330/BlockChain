@@ -42,4 +42,6 @@ I welcome contributions, feedback, and suggestions from the community. Feel free
 ## Acknowledgements
 I'm grateful to the open-source community, developers, and resources that have helped me on this learning journey.
 
+## 09.12.2023 -> Work on Hold due to Exam Season
+
 # Copyright @ Himanshu Agrawal
