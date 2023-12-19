@@ -44,6 +44,7 @@ I'm grateful to the open-source community, developers, and resources that have h
 
 ## 09.12.2023 -> Work on Hold due to Exam Season
 ## 17.12.2023 -> Still on hold just 3 days more we will be back.. 
+## 19.12.2023 -> One more day to go! 
 
 #Happy Coding! 
 
