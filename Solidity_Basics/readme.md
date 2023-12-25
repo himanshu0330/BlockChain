@@ -105,3 +105,9 @@ There are two methods of calling functions of parent contract
 2. Customized error
 3. User Account address
 4. Checking OwnerShip of User
+
+# Functions Modifiers
+
+1. Special type of function
+2. To add function Prerequiste
+3. There is only one Constructor but can be more than one Modifier in a Smart Contract.
