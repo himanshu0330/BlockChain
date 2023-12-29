@@ -118,3 +118,8 @@ There are two methods of calling functions of parent contract
 2. We can send ethers from a smart contract to a Address which is payable.
 3. We can accept ethers in a smart contract in which a payable function is present.
 4. If we want to add ether during the deployment time only so we can made a Payabke Constructor.
+
+# FallBack And Receive
+
+1. Desc is added in the file itself.
+2. Main task is to Receive ETH and data.
