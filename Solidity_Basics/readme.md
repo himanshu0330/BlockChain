@@ -1,16 +1,16 @@
 # Functions
 
-1.  view
-2.  pure
-3.  simple
+1. view
+2. pure
+3. simple
 
-# Default values $ Common DataTypes:
+# Default values $ Common DataTypes
 
-1.  uint - 0
-2.  bool - false
-3.  address - 40 bits(0) address in 0x form
-4.  bytes32 - 32 zeroes in 0x form
-5.  string - empty string
+1. uint - 0
+2. bool - false
+3. address - 40 bits(0) address in 0x form
+4. bytes32 - 32 zeroes in 0x form
+5. string - empty string
 
 # Constants
 
@@ -111,3 +111,10 @@ There are two methods of calling functions of parent contract
 1. Special type of function
 2. To add function Prerequiste
 3. There is only one Constructor but can be more than one Modifier in a Smart Contract.
+
+# Payable
+
+1. Used in making Functions and Addresses Payable.
+2. We can send ethers from a smart contract to a Address which is payable.
+3. We can accept ethers in a smart contract in which a payable function is present.
+4. If we want to add ether during the deployment time only so we can made a Payabke Constructor.
