@@ -121,5 +121,9 @@ There are two methods of calling functions of parent contract
 
 # FallBack And Receive
 
-1. Desc is added in the file itself.
+1. Desc. is added in the file itself.
 2. Main task is to Receive ETH and data.
+
+# Send Ether
+
+1. Either to a Account or Contract, Basically three functions -: Send, Transfer and Call.
