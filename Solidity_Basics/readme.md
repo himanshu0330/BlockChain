@@ -127,3 +127,9 @@ There are two methods of calling functions of parent contract
 # Send Ether
 
 1. Either to a Account or Contract, Basically three functions -: Send, Transfer and Call.
+
+# Immutability
+
+1. The main advantage is Const have a inline value assignment compulsory but in immutability value can be assigned at runtime via constructor.
+2. Gas cost is higher than Const.
+3. Cost of gas used in these -> Simple > Immutable > Const
