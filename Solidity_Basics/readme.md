@@ -133,3 +133,9 @@ There are two methods of calling functions of parent contract
 1. The main advantage is Const have a inline value assignment compulsory but in immutability value can be assigned at runtime via constructor.
 2. Gas cost is higher than Const.
 3. Cost of gas used in these -> Simple > Immutable > Const
+
+# Data Location -> Storage, Memory, Calldata
+
+1. Storage -> Stored on blockchain, used to store state varaibles, cost some gas, permanent storage on blockchain.
+2. Memory -> Temporary storage, used to store function arguments, cost some gas, erased after function execution.
+3. Calldata -> Similar to memory, used to store function arguments, cost some gas, erased after function execution, used for external function calls.(Note: - Calldata is read only i.e. can't change by user).
