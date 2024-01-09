@@ -134,7 +134,7 @@ There are two methods of calling functions of parent contract
 2. Gas cost is higher than Const.
 3. Cost of gas used in these -> Simple > Immutable > Const
 
-# Data Location -> Storage, Memory, Calldata
+# Data Location -> Storage, Memory, Calldata (IMPORTANT)
 
 1. Storage -> Stored on blockchain, used to store state varaibles, cost some gas, permanent storage on blockchain.
 2. Memory -> Temporary storage, used to store function arguments, cost some gas, erased after function execution.

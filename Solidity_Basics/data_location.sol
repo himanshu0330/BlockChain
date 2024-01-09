@@ -13,12 +13,14 @@ contract dataLoc {
     // }
     function Memory(string memory str, uint[] memory arr) public {
         getInMem(arr);
-        getInCall(arr);
+        //getInCall(arr); as we can't pass a memoiry array to calldata array type.
     }
 
     function Calldata(string calldata str, uint[] calldata arr) public {
-        // this is used when we do not want to chnage the value once inputted by a user
+        // this is used when we do not want to change the value once inputted by a user
         // it helps to reduce the gas cost
+        getInMem(arr);
+        getInCall(arr);
     }
 
     function getInMem(uint[] memory arr) public {}
