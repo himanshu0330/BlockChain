@@ -139,3 +139,15 @@ There are two methods of calling functions of parent contract
 1. Storage -> Stored on blockchain, used to store state varaibles, cost some gas, permanent storage on blockchain.
 2. Memory -> Temporary storage, used to store function arguments, cost some gas, erased after function execution.
 3. Calldata -> Similar to memory, used to store function arguments, cost some gas, erased after function execution, used for external function calls.(Note: - Calldata is read only i.e. can't change by user).
+
+# Cryptographic Hash Functions
+
+1. Keccak 256 -> Input bytes return hash of 32 bytes.
+2. SHA 256 -> Input bytes return hash of 32 bytes (Other than keccak).
+3. Ripemd 160 -> Input bytes return hash of 20 bytes.
+
+### Usage -
+
+Contract Signature, UniqueID Generation, Fradulent.
+
+### Note:- To convert any datatype to bytes we can use inbuilt functions abi.encode, abi.encodePacked.
