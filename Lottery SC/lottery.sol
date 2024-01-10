@@ -29,9 +29,7 @@ contract Lottery {
     function random() private view returns (uint) {
         return
             uint(
-                sha256(
-                    abi.encodePacked(block.difficulty, block.number, players)
-                )
+                sha256(abi.encodePacked(block.basefee, block.number, players))
             );
     }
 
