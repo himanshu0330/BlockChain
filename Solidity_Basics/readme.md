@@ -1,16 +1,16 @@
 # Functions
 
-1. view
-2. pure
-3. simple
+- view
+- pure
+- simple
 
 # Default values $ Common DataTypes
 
-1. uint - 0
-2. bool - false
-3. address - 40 bits(0) address in 0x form
-4. bytes32 - 32 zeroes in 0x form
-5. string - empty string
+- uint - 0
+- bool - false
+- address - 40 bits(0) address in 0x form
+- bytes32 - 32 zeroes in 0x form
+- string - empty string
 
 # Constants
 
@@ -151,3 +151,7 @@ There are two methods of calling functions of parent contract
 Contract Signature, UniqueID Generation, Fradulent.
 
 ### Note:- To convert any datatype to bytes we can use inbuilt functions abi.encode, abi.encodePacked.
+
+## HAPPY CODING
+
+# Copyright @ Himanshu Agrawal 2024
